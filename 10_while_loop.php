@@ -8,9 +8,12 @@
 </head>
 <body>
     <?php
-    
-        while (4 < 10) {
-            echo 'Hello student';
+        
+        $counter = 0;
+        while ($counter <= 10) {
+            echo $counter;
+            // $counter = $counter + 1; 
+            $counter++;
         }
         
 
